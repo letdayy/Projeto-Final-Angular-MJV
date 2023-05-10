@@ -1,3 +1,7 @@
+## Em Construção 🚧
+
+Projeto feito utilizando o framework Angular.
+
 ## Comandos utilizados para criar o projeto:
 ```bash
 ng new ProjetoFinalAngular
