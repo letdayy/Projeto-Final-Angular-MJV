@@ -2,7 +2,7 @@
     <div *ngFor="let course of courses" class="card">
         <img src="{{ course.image }}" width="400px" height="260px">
         <h1 class="text">{{ course.description }}</h1>
-        <h2>{{ course.price | currency: 'R$' }}</h2>
+        <h2>{{ course.price | currency: 'R$' }} reais</h2>
         <button class="button">Comprar</button>
     </div>
 </div>

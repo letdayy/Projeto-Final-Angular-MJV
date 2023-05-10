@@ -8,6 +8,8 @@ import { Course } from '../../models/course.model';
 })
 export class CourseListComponent implements OnInit {
 
+
+
   courses: Array<Course> = [
     {
       id: 1,

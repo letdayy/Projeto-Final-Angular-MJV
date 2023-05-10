@@ -5,7 +5,10 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './features/home/home.module';
 import { LoginModule } from './features/login/login.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localePt  from '@angular/common/locales/pt';
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -18,7 +21,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LOCALE_ID,
+      useValue: "pt-BR"
+  }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
