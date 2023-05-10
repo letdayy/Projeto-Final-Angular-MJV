@@ -31,3 +31,7 @@ Para exibir algo na tela deve-se criar um componente do tipo page na home.
 ```bash
 ng g c features/home/pages/home --skip-selector
 ```
+Foi utilizada a biblioteca de componentes Angular Material
+````bash
+ng add @angular/material
+```

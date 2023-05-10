@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    align-items: center;
+    height: 80px;
+}
+
+//imagem da logo
+.logo {
+    margin-left: 10px;
+}
+
+//botões
+.buttons {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    font-size: 30px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.button-white {
+    border: 1px solid #000000;
+    width: 130px;
+}
+
+.button-black {
+    background-color: #000000;
+    color: #ffffff;
+    width: 205px;
+}
+
+//caixa de pesquisa
+.search {
+    display: flex;
+    background-color: #D9D9D9;
+    width: 560px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.search input {
+    width: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.search img {
+    padding-right: 10px;
+    cursor: pointer;
+}
