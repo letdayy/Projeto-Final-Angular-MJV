@@ -1,14 +1,33 @@
-<h1>Comandos utilizados para criar o projeto:</h1>
-```ng new ProjetoFinalAngular```
-```cd ProjetoFinalAngular```
+## Em Construção 🚧
+
+Projeto feito utilizando o framework Angular.
+
+## Comandos utilizados para criar o projeto:
+```bash
+ng new ProjetoFinalAngular
+```
+```bash
+cd ProjetoFinalAngular
+```
 criação das pastas shared e feature
-```ng g m shared```
+```bash
+ng g m shared
+```
 criação das pastas home e login dentro de feature
-```ng g m features/home```
-```ng g m features/login```
+```bash
+ng g m features/home
+```
 criação das pastas components dentro das pastas home, login e shared
 criação dos componentes header e footer, como no exemplo abaixo
-```ng g c shared/components/header```
-<br>
-```ng g c features/home/components/course-list```
+```bash
+ng g c shared/components/header
+```
+```bash
+ng g c features/home/components/course-list
+```
 criação da pasta models dentro da course-list com o arquivo chamado course.model.ts
+
+Para exibir algo na tela deve-se criar um componente do tipo page na home.
+```bash
+ng g c features/home/pages/home --skip-selector
+```
