@@ -26,3 +26,8 @@ ng g c shared/components/header
 ng g c features/home/components/course-list
 ```
 criação da pasta models dentro da course-list com o arquivo chamado course.model.ts
+
+<p>Para exibir algo na tela deve-se criar um componente do tipo page na home</p>
+```bash
+ng g c features/home/pages/home --skip-selector
+```
